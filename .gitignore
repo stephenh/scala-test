@@ -3,3 +3,4 @@ gwt-unitCache
 .gwt
 test-classes
 *.gwtar
+.scala_dependencies
