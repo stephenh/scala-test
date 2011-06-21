@@ -14,7 +14,7 @@
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.google.gwt.dev.Compiler"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-logLevel TRACE&#10;-style PRETTY&#10;-draftCompile&#10;-optimize 0&#10;scalatest.ScalaTest"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-logLevel TRACE&#10;-style PRETTY&#10;-draftCompile&#10;scalatest.JavaTest"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="scala-test"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx512m&#10;-Dgwt.persistentunitcache=true&#10;-Dgwt.usearchives=false&#10;-Dx.gwt.astBuilder=true&#10;-ea&#10;-Dgwt.jjs.dumpAst=./ScalaTest.ast"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx512m&#10;-Dgwt.persistentunitcache=true&#10;-Dgwt.usearchives=false&#10;-Dx.gwt.astBuilder=true&#10;-Dgwt.jjs.dumpAst=./JavaTest.ast&#10;-ea"/>
 </launchConfiguration>
