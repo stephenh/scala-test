@@ -11,4 +11,8 @@
     <servlet-name>greetServlet</servlet-name>
     <url-pattern>/scalatest/greet</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/javatest/greet</url-pattern>
+  </servlet-mapping>
 </web-app>
