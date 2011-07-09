@@ -9,6 +9,7 @@ class ScalaTest extends EntryPoint {
   val greetingService: GreetingServiceAsync = GWT.create(classOf[GreetingService])
 
   def onModuleLoad(): Unit = {
+    // List(1, 2).foreach { i => Window.alert("hello there!! " + i) }
     Window.alert("hello there!!")
     greetingService.greet("hello", new AsyncCallback[String]() {
       override def onSuccess(result: String) {

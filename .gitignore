@@ -5,3 +5,4 @@ test-classes
 *.gwtar
 .scala_dependencies
 *.ast
+jribbleCache
