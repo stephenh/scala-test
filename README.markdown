@@ -27,3 +27,10 @@ Now you should be able to:
 * Run ScalaTestCompile.launch to compile to WebMode
 * Run JavaTestCompile.launch to compile Java code that uses GWT-RPC interfaces defined in Scala
 
+If you want to try the output from WebMode, to start a server:
+
+* Download [jtty.jar](https://github.com/downloads/stephenh/jtty/jtty.jar)
+* Copy `gwt-servlet.jar` and `scala-library.jar` to `WEB-INF/lib`
+* Run `java -jar jtty.jar 8080 war`
+* Open `http://127.0.0.1:8080/ScalaTest.html` in Firefox
+
