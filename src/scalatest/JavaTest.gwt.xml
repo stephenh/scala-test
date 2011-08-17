@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module rename-to="javatest">
   <inherits name="com.google.gwt.user.User"/>
-  <inherits name="Scala"/>
+  <inherits name="ScalaLibrary"/>
   <entry-point class="scalatest.client.JavaTest"/>
   <source path="client"/>
   <set-property name="user.agent" value="gecko1_8"/>
